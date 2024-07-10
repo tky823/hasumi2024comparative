@@ -1,21 +1,13 @@
 ---
-title: A COMPARATIVE STUDY OF TEXT-SPEECH ALIGNMENT METHODS FOR EMOTIONAL SPEECH SYNTHESIS
+title: 感情音声合成のためのアラインメント手法の比較
 layout: default
 ---
 
 # Authors
 
 <div style="text-align: center;">
-Anonymous submission to Interspeech 2024
+蓮実拓也，白旗悠真，Welly Naptali，山本龍一（LINEヤフー），Eunwoo Song（NAVER Cloud），橘健太郎（LINEヤフー），Jae-Min Kim（NAVER Cloud）
 </div>
-
-# Abstract
-
-In this paper, we investigate the performance of various text-speech alignment methods to build a high-quality emotional parallel text-to-speech (TTS) system.
-We not only make a comprehensive study on text-speech alignment strategies on emotional TTS tasks but also propose a semi-supervised alignment learning approach as an extension of unsupervised alignment learning.
-In the semi-supervised approach, the alignment module is pre-trained with a small amount of annotated data and then fine-tuned with a large amount of unannotated data.
-The main findings from experimental results include that the semi-supervised approach, which uses only 4% of annotated data, significantly improves the training stability of the unsupervised approach.
-Moreover, it achieves comparable performance to a model that employs fully annotated duration labels and the alignments extracted from a strong external forced aligner.
 
 # Audio Samples
 
